@@ -1,12 +1,14 @@
 Git comands
 
-1) cd перейти в потрібну папку та проініціалізувати її
+1) git clone https://github.com/viktor-stashkiv/
+   cd name (перейти в потрібний каталог)
 
-2) git init // ініціалізація
+1.2)  git config ­­global user.name "viktor-stashkiv" 
+      git config ­­global user.email stashkivvitja@gmail.com
 
 3) git status // статус усіх файлів
 
-4) git add name_file // сказати гіту, щоб він слідкував за цим файлом
+4) git add name_file 2_name_file // сказати гіту, щоб він слідкував за цим файлом
 
 git add . // сказати гіту, щоб слідкував за всіма файлами
 
@@ -16,7 +18,11 @@ git rm --cached name_file // перестати слідкувати за фай
 
 6) створити файл errors.txt потім створити файл .gitignore і в цьому файлі добавити файл errors.txt
 
-7) затрекати файл .gitignore
+7) затрекати файл // .gitignore
+
+8) git push // відправити дані в головний репозиторій
+
+9) git pull // отримати оновлені дані
 
 
 
